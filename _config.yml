@@ -1,4 +1,10 @@
+url: "https://amberlu.github.io"
+
 plugins:
   - jekyll-seo-tag
+  
 title: "Jianan Lu"
+
+description: "Welcome to Jianan's website. It summarizes her works at Berkeley and Princeton."
+
 author: "Jianan Lu"
