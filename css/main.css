@@ -19,6 +19,37 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: -12px 0 24px;
+}
+
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 15px;
+    border: 1px solid #1E90FF;
+    border-radius: 999px;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: bold;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.contact-link:hover {
+    color: #fff;
+    background-color: #1E90FF;
+    text-decoration: none;
+}
+
+.contact-link .material-icons {
+    font-size: 20px;
+}
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -52,4 +83,3 @@ ul.posts li {
   justify-content: center;
   vertical-align: middle;
 }
-
